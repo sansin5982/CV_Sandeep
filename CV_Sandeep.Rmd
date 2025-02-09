@@ -68,8 +68,6 @@ if(PDF_EXPORT){
 
 Contact {#contact}
 --------------------------------------------------------------------------------
-
-
 - <i class="fa fa-envelope"></i> ssing023@fiu.edu
 - <i class="fa fa-envelope"></i> sansin5982@gmail.com
 - <i class="fa fa-twitter"></i> s_singh5982
@@ -107,12 +105,12 @@ Sandeep Kumar Singh, PhD {#title}
 --------------------------------------------------------------------------------
 
 ```{r}
-intro_text <- "As a genetic epidemiologist and data scientist, I study genetic variants underlying complex diseases, focusing on psychiatric genomics, cancer genetics, and immune disorders. My expertise in GWAS, statistical genetics, and bioinformatics helps uncover gene-environment interactions and modifiers like age, sex, and ancestry. By integrating machine learning and functional annotation, I aim to advance precision medicine and translate genetic insights into clinical applications." 
+intro_text <- "I investigate genetic variants driving complex diseases, with a focus on psychiatric genomics, cancer genetics, and immune disorders. Using GWAS, statistical genetics, and bioinformatics, I explore gene-environment interactions and key modifiers like age, sex, and ancestry. By integrating machine learning and functional annotation, I translate genomic insights into precision medicine." 
 
 cat(sanitize_links(intro_text))
 ```
 
-Work Experience {data-icon=laptop}
+Research and Teaching Experience {data-icon=laptop}
 --------------------------------------------------------------------------------
 
 ```{r}
@@ -121,25 +119,40 @@ print_section(position_data, 'positions')
 
 Education {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
+
 ::: aside
-**Genomic Data Analysis:** GWAS, RNA-Seq, ChIP-seq
+**Genomic Data Analysis** GWAS, RNA-Seq, ChIP-seq
 
-**Tools and Software:** PLINK, RICOPILI, LDSC, GCTA, ASSET, LDAK, MiXer, MAGMA, FUMA,  bcftools, samtools, bedtools, GATK, VEP, ANNOVAR, IGV, Enrichr, Github, etc.
+**Tools and Software** PLINK, RICOPILI, LDSC, GCTA, ASSET, LDAK, MiXer, MAGMA, FUMA,  bcftools, samtools, bedtools, GATK, VEP, ANNOVAR, IGV, Enrichr, Github, etc.
 
-**Bioinformatics/Biostatistics:** Hypothesis Testing,  Correlation, Linear and Logistic Regression, Survival Analysis, Cluster Analysis, Multivariate Analysis, Linear Mixed Models, Exploratory Data Analysis, Machine Learning, Deep Learning, GenAI (Basics), Epidemiology  
+**Bioinformatics/Biostatistics** Hypothesis Testing,  Correlation, Linear and Logistic Regression, Survival Analysis, Cluster Analysis, Multivariate Analysis, Linear Mixed Models, Exploratory Data Analysis, Machine Learning, Deep Learning, GenAI (Basics), Epidemiology  
 :::
+
 
 ```{r}
 print_section(position_data, 'education')
 ```
 
-<br>
-<br>
-<br>
-
 Publications {data-icon=book}
 --------------------------------------------------------------------------------
 
+```{r}
+print_section(position_data, "articles")
+```
+
+Grants and Awards {data-icon=scroll}
+--------------------------------------------------------------------------------
+
+::: aside
+I am passionate about education and believe that no topic is too complex when taught with empathy and innovative approaches. An effective teacher adapts to diverse learning styles, making even the most challenging concepts accessible and engaging. 
+:::
+
+```{r}
+print_section(position_data, 'grants_awards')
+```
+
+Selected Presentations {data-icon=comments}
+--------------------------------------------------------------------------------
 ::: aside
 **Github Notes/projects**
 
@@ -155,63 +168,15 @@ Publications {data-icon=book}
 :::
 
 ```{r}
-print_section(position_data, "articles")
-```
-
-Grants and Awards {data-icon=scroll}
---------------------------------------------------------------------------------
-
-```{r}
-print_section(position_data, 'grants_awards')
-```
-
-Teaching Experience {data-icon=chalkboard-teacher}
---------------------------------------------------------------------------------
-
-::: aside
-I am passionate about education and believe that no topic is too complex when taught with empathy and innovative approaches. An effective teacher adapts to diverse learning styles, making even the most challenging concepts accessible and engaging. 
-:::
-
-```{r}
-print_section(position_data, 'teaching_experience')
-```
-
-Presentations {data-icon=comments}
---------------------------------------------------------------------------------
-
-```{r}
 print_section(position_data, 'presentations')
 ```
 
-Data Science Writing {data-icon=chart-line}
+Selected Data Science Writing {data-icon=chart-line}
 --------------------------------------------------------------------------------
 
 ```{r}
 print_section(position_data, 'data_science_writings')
 ```
-
-Webinars Presented {data-icon=video}
---------------------------------------------------------------------------------
-
-```{r}
-print_section(position_data, 'webinar_presented')
-```
-
-Workshop Conducted {data-icon=video}
---------------------------------------------------------------------------------
-
-```{r}
-print_section(position_data, 'workshop_conducted')
-```
-
-Workshop Attended {data-icon=university}
---------------------------------------------------------------------------------
-
-```{r}
-print_section(position_data, 'workshop_attended')
-```
-
-
 
 
 ```{r}
