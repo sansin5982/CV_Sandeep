@@ -56,6 +56,16 @@ Aside
 
 ![logo](beta_dist.png){width=100%}
 
+
+```{r}
+# When in export mode the little dots are unaligned, so fix that. 
+if(PDF_EXPORT){
+  cat("View this CV online with links at _sksingh.me/cv_")
+} else {
+  cat("[<i class='fas fa-download'></i> Download a PDF of this CV](https://github.com/sansin5982/CV_Sandeep/blob/main/Sandeep_Singh_CV.pdf)")
+}
+```
+
 Contact {#contact}
 --------------------------------------------------------------------------------
 
