@@ -6,6 +6,7 @@ body {
   font-weight: 400;
   font-size: 1rem;  /* Increase font size */
   line-height: 1.2;
+  font-variant: normal !important;  /* Prevents font-based transformations */
   color: #222;
 }
 
@@ -127,3 +128,10 @@ sup {
 .presentation-title b {
   font-weight: bold !important;
 }
+
+/* Ensure "PhD" is displayed with correct capitalization */
+#title, h1, h2 {
+  text-transform: none !important;  /* Prevent automatic uppercase conversion */
+  font-variant: normal !important; /* Ensure no small caps or all caps */
+}
+
